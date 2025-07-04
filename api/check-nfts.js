@@ -1,5 +1,3 @@
-// /api/check-nfts.js
-
 export default async function handler(req, res) {
   const { chain, address, slug } = req.query;
 
